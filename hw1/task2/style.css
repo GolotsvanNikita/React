@@ -1,0 +1,25 @@
+body
+{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.album
+{
+    display: inline-block;
+    margin: 15px;
+}
+
+.album img
+{
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
