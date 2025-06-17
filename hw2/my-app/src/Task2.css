@@ -1,0 +1,24 @@
+.album
+{
+    display: inline-block;
+    margin: 15px;
+}
+
+.album img
+{
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.container2
+{
+    text-align: center;
+}
+
