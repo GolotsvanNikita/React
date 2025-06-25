@@ -1,0 +1,52 @@
+.car-container
+{
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.car-container h2
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.car-container p
+{
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.car-container button
+{
+    padding: 8px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.car-container button:hover
+{
+    background-color: #2563eb;
+}
+
+.car-details
+{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 0.25rem;
+}
+
+.car-details p
+{
+    color: #1f2937;
+}
