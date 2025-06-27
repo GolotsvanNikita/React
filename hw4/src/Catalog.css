@@ -1,0 +1,27 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+img
+{
+    width: 240px;
+    height: 180px;
+}
+p
+{
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.Container
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.Card
+{
+    padding: 30px;
+}
