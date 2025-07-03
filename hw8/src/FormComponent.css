@@ -1,0 +1,80 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+input.correct:focus
+{
+    border: 1px solid #59af4c !important;
+}
+
+input.error:focus
+{
+    border: 1px solid #cb4646 !important;
+}
+
+.mainForm
+{
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainForm label
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mainForm input[type="text"],
+.mainForm input[type="password"],
+.mainForm input[type="email"],
+.mainForm select,
+.mainForm textarea
+{
+    margin-top: 6px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.mainForm select:focus,
+.mainForm textarea:focus
+{
+    border-color: #59af4c;
+}
+
+.mainForm input[type="radio"],
+.mainForm input[type="checkbox"]
+{
+    margin-right: 6px;
+}
+
+.mainForm label > div
+{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    gap: 8px;
+}
+
+textarea
+{
+    resize: vertical;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+}
