@@ -96,7 +96,8 @@ export function LoginForm({ onToggle })
                 </button>
                 <div className='createAcc'>
                     <p>У вас ще немає облікового запису? Створіть його:</p>
-                    <button onClick={(e) => {
+                    <button onClick={(e) =>
+                    {
                         e.preventDefault();
                         if (onToggle) {
                             onToggle();
