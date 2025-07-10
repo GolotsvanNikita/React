@@ -99,7 +99,8 @@ export function LoginForm({ onToggle })
                     <button onClick={(e) =>
                     {
                         e.preventDefault();
-                        if (onToggle) {
+                        if (onToggle)
+                        {
                             onToggle();
                         }
                     }}><Link to="/register">створити аккаунт</Link></button>
