@@ -12,7 +12,8 @@ function App()
     useEffect(() =>
     {
         const savedState = localStorage.getItem('isChange');
-        if (savedState !== null) {
+        if (savedState !== null)
+        {
             setIsChange(JSON.parse(savedState));
         }
     }, []);
